@@ -16,7 +16,8 @@ return new class extends Migration
         Schema::create('forum_comments', function (Blueprint $table) {
             $table->id('id');
             $table->integer('user_id')->unsigned();
-            $table->integer('forum_id')->unsigned();
+            $table->unsignedBigInteger('forum_id');
+            $table->foreign('forum_id')->references('id')->on('forum');
             $table->string('comment',500);
             $table->dateTime('date');
             $table->timestamp('last_used_at')->nullable();
