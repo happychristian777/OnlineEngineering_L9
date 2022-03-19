@@ -41,6 +41,11 @@
                                 <span class="ml-auto sidebar-menu-toggle-icon"></span>
                             </a>
                             <ul class="sidebar-submenu collapse show " id="dashboards_menu">
+                                  <li class="sidebar-menu-item active">
+                                    <a class="sidebar-menu-button" href="{{url('admin/forum/categories')}}">
+                                        <span class="sidebar-menu-text">Forum Categories</span>
+                                    </a>
+                                </li>
                                 <li class="sidebar-menu-item active">
                                     <a class="sidebar-menu-button" href="{{url('admin/forum')}}">
                                         <span class="sidebar-menu-text">Forum List</span>

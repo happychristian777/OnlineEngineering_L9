@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Validator;
 use App\Models\admin\admin;
 USE Illuminate\Support\Facades\Auth;
+use Session;
 
 class LoginController extends Controller
 {
@@ -50,6 +51,8 @@ class LoginController extends Controller
     }
     public function logout(){
         Auth::logout();
+        Session::flush();
+
         return redirect('/admin');
     }
 }

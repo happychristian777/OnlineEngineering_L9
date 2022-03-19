@@ -10,4 +10,7 @@ class ForumController extends Controller
     public function index(){
         return view('admin.forums');
     }
+    public function categories(){
+        return view('admin.categories');
+    }
 }

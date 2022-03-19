@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
@@ -27,6 +28,15 @@ class LoginController extends Controller
      * @var string
      */
     protected $redirectTo = RouteServiceProvider::Dashboard;
+    public function authenticated(){
+        if(Auth::user()->role == '1'){
+            return redirect()->route('admin.dashboard')->with('status','Welcome to Admin Dashboard');
+        }else if(Auth::user()->role == '0'){
+            return redirect()->route('/')->with('status','Login Successful');
+        }else{
+            return redirect()->route('/');
+        }
+    }
 
     /**
      * Create a new controller instance.
