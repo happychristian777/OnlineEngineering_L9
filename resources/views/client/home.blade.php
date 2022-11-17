@@ -385,7 +385,7 @@
         <!--===========  feature-icon-wrapper  End =============-->
 
         <!--=========== fun fact Wrapper Start ==========-->
-        <div class="fun-fact-wrapper bg-theme-default section-space--pb_30 section-space--pt_60">
+        {{-- <div class="fun-fact-wrapper bg-theme-default section-space--pb_30 section-space--pt_60">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-6 wow move-up">
@@ -414,7 +414,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!--=========== fun fact Wrapper End ==========-->
 
 
@@ -445,9 +445,9 @@
                                                 <img class="img-fluid" src="{{url('client')}}/images/projects/case-study-01-480x298.webp" alt="">
                                             </div>
                                             <div class="content">
-                                                <h6 class="heading">Mitech-Smart Vision</h6>
+                                                <h6 class="heading">Online Engineering-Smart Vision</h6>
                                                 <div class="post-categories">Cyber Security</div>
-                                                <div class="text">At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution.
+                                                <div class="text">At Online Engineering, we have a holistic and integrated approach towards core modernization to experience technological evolution.
                                                 </div>
                                                 <div class="box-projects-arrow">
                                                     <span class="button-text">View case study</span>
@@ -539,37 +539,7 @@
 
 
 
-        <div class="technology-service-area technology-service-bg">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="section-title section-space--pt_60">
-                            <p class="text-white font-weight--bold">OUR TECHNOLOGY</p>
-                            <h3 class="text-white"><span class="text-color-secondary">Mitech</span> – Top Software
-                                Development Technology</h3>
-                            <p class="text-infos text-white mt-30">Our strong passion to modern tech trends and best practices drive in the development of top-notch solutions that are perfectly tailored to provide high quality and affordable software outsourcing solutions to growing startup and enterprise companies in the world.</p>
 
-                            <div class="single-button-group">
-                                <div class="button-group-wrap mt-30">
-                                    <a href="#" class="ht-btn ht-btn-md ht-btn--outline">ASP. NET Core</a>
-                                    <a href="#" class="ht-btn ht-btn-md ht-btn--outline">REACT JS</a>
-                                    <a href="#" class="ht-btn ht-btn-md ht-btn--outline">ANGULAR</a>
-                                    <a href="#" class="ht-btn ht-btn-md ht-btn--outline">PHP</a>
-                                    <a href="#" class="ht-btn ht-btn-md ht-btn--outline">JAVA</a>
-                                    <a href="#" class="ht-btn ht-btn-md ht-btn--outline">PYTHON</a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="banner-image section-space--pt_60">
-                            <img src="{{url('client')}}/images/banners/soft-s5-img.webp" class="img-fluid" alt="Image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
         <div class="blog-section-wrapper section-space--pt_100  section-space--pb_70">

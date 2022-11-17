@@ -1,4 +1,4 @@
-@include('admin.layouts.header');
+@include('admin.layouts.header')
 @yield('main-section')
-@include('admin.layouts.sidebar');
-@include('admin.layouts.footer');
+@include('admin.layouts.sidebar')
+@include('admin.layouts.footer')

@@ -12,8 +12,8 @@
                 <div class="row">
                     <div class="col-lg-8 m-auto">
                         <div class="about-banner-content text-center">
-                            <h1 class="mb-15 text-white">About Mitech</h1>
-                            <h5 class="font-weight--normal text-white">Mitech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. </h5>
+                            <h1 class="mb-15 text-white">About Online Engineering</h1>
+                            <h5 class="font-weight--normal text-white">Online Engineering specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. </h5>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
 
                         <div class="col-lg-5 offset-lg-1">
                             <div class="cybersecurity-about-text">
-                                <div class="text">Mitech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.</div>
+                                <div class="text">Online Engineering specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.</div>
                                 <div class="button-text">
                                     <a href="#" class="btn-text">
                                         Discover now
@@ -60,84 +60,7 @@
                 </div>
 
 
-                <div class="row">
-                    <div class="col-12">
-                        <div class="feature-images__six">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6 wow move-up">
-                                    <!-- ht-box-icon Start -->
-                                    <div class="ht-box-images style-06">
-                                        <div class="image-box-wrap">
-                                            <div class="box-image">
-                                                <div class="default-image">
-                                                    <img class="img-fulid" src="{{url('client')}}/images/icons/mitech-box-image-style-06-image-01-120x120.webp" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="heading">What we can do?</h5>
-                                                <div class="text">We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.
-                                                </div>
-                                                <a href="#" class="box-images-arrow">
-                                                    <span class="button-text">Discover now</span>
-                                                    <i class="far fa-long-arrow-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ht-box-icon End -->
-                                </div>
-                                <div class="col-lg-4 col-md-6 wow move-up">
-                                    <!-- ht-box-icon Start -->
-                                    <div class="ht-box-images style-06">
-                                        <div class="image-box-wrap">
-                                            <div class="box-image">
-                                                <div class="default-image">
-                                                    <img class="img-fulid" src="{{url('client')}}/images/icons/mitech-box-image-style-06-image-02-120x120.webp" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="heading">Become our partners?</h5>
-                                                <div class="text">Our preventive and progressive approach will help you take the lead while addressing possible threats in managing data.
-                                                </div>
-                                                <a href="#" class="box-images-arrow">
-                                                    <span class="button-text">Discover now</span>
-                                                    <i class="far fa-long-arrow-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ht-box-icon End -->
-                                </div>
-                                <div class="col-lg-4 col-md-6 wow move-up">
-                                    <!-- ht-box-icon Start -->
-                                    <div class="ht-box-images style-06">
-                                        <div class="image-box-wrap">
-                                            <div class="box-image">
-                                                <div class="default-image">
-                                                    <img class="img-fulid" src="{{url('client')}}/images/icons/mitech-box-image-style-06-image-03-120x120.webp" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="heading">Need a hand?</h5>
-                                                <div class="text">Our support team is available 24/7 a day, 7 days a week and can get ready for solving any of your situational rising problems.
-                                                </div>
-                                                <a href="#" class="box-images-arrow">
-                                                    <span class="button-text">Discover now</span>
-                                                    <i class="far fa-long-arrow-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ht-box-icon End -->
-                                </div>
 
-                            </div>
-                        </div>
-
-                        <div class="section-under-heading text-center section-space--mt_60">Challenges are just opportunities in disguise. <a href="#">Take the challenge!</a></div>
-
-                    </div>
-                </div>
             </div>
         </div>
         <!--===========  feature-large-images-wrapper  End =============-->
@@ -146,32 +69,7 @@
 
 
         <!--========= About Resources Wrapper Start ===========-->
-        <div class="about-resources-wrapper">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 order-2 order-lg-1">
-                        <div class="resources-left-box">
-                            <div class="resources-inner">
-                                <h6 class="sub-title mb-20">Resources</h6>
-                                <h3 class="heading">Get a copy of brochure on <span class="text-color-primary"> Brand New IT Tech.</span></h3>
-                                <div class="button mt-30">
-                                    <a href="#" class="ht-btn ht-btn-md">Download now (3MB)</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 order-1 order-lg-2">
-                        <div class="resources-right-box">
-                            <div class="resources-right-inner text-center">
-                                <div class="resources-images">
-                                    <img class="img-fluid" src="{{url('client')}}/images/banners/managed-it-services-book-cover.webp" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <!--========= About Resources Wrapper End ===========-->
         <!--========= About Delivering Wrapper Start ===========-->
         <div class="about-delivering-wrapper section-space--ptb_100">
@@ -222,7 +120,7 @@
                                 <div class="marker"></div>
                                 <div class="title-wrap">
                                     <h5 class="title">Infrastructure Integration Technology </h5>
-                                    <div class="desc">At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution. </div>
+                                    <div class="desc">At Online Engineering, we have a holistic and integrated approach towards core modernization to experience technological evolution. </div>
                                 </div>
                             </div>
                             <div class="list-item">
@@ -238,45 +136,16 @@
             </div>
         </div>
         <!--=========== fun fact Wrapper Start ==========-->
-        <div class="fun-fact-wrapper bg-theme-default section-space--pb_30 section-space--pt_60">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 wow move-up">
-                        <div class="fun-fact--two text-center">
-                            <div class="fun-fact__count counter">120</div>
-                            <h6 class="fun-fact__text">Happy clients</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 wow move-up">
-                        <div class="fun-fact--two text-center">
-                            <div class="fun-fact__count counter">32</div>
-                            <h6 class="fun-fact__text">Finished projects</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 wow move-up">
-                        <div class="fun-fact--two text-center">
-                            <div class="fun-fact__count counter">73</div>
-                            <h6 class="fun-fact__text">Skilled Experts</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 wow move-up">
-                        <div class="fun-fact--two text-center">
-                            <div class="fun-fact__count counter">318</div>
-                            <h6 class="fun-fact__text">Media Posts</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <!--=========== fun fact Wrapper End ==========-->
         <!--====================  testimonial section ====================-->
-        <div class="testimonial-slider-area section-space--pt_100">
+        {{-- <div class="testimonial-slider-area section-space--pt_100">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title-wrap text-center section-space--mb_40">
                             <h6 class="section-sub-title mb-20">Testimonials</h6>
-                            <h3 class="heading">What do people praise about <span class="text-color-primary"> Mitech?</span></h3>
+                            <h3 class="heading">What do people praise about <span class="text-color-primary"> Online Engineering?</span></h3>
                         </div>
                         <div class="testimonial-slider">
                             <div class="swiper-container testimonial-slider__container">
@@ -286,7 +155,7 @@
 
                                             <div class="testimonial-slider--info">
                                                 <div class="testimonial-slider__media">
-                                                    <img src="{{url('client')}}/images/testimonial/mitech-testimonial-avata-02-90x90.webp" class="img-fluid" alt="">
+                                                    <img src="{{url('client')}}/images/testimonial/Online Engineering-testimonial-avata-02-90x90.webp" class="img-fluid" alt="">
                                                 </div>
 
                                                 <div class="testimonial-slider__author">
@@ -304,7 +173,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="testimonial-slider__text">I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me.</div>
+                                            <div class="testimonial-slider__text">I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Online Engineering is one of the most impressive to me.</div>
 
                                         </div>
                                     </div>
@@ -313,7 +182,7 @@
 
                                             <div class="testimonial-slider--info">
                                                 <div class="testimonial-slider__media">
-                                                    <img src="{{url('client')}}/images/testimonial/mitech-testimonial-avata-03-90x90.webp" class="img-fluid" alt="">
+                                                    <img src="{{url('client')}}/images/testimonial/Online Engineering-testimonial-avata-03-90x90.webp" class="img-fluid" alt="">
                                                 </div>
 
                                                 <div class="testimonial-slider__author">
@@ -331,7 +200,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="testimonial-slider__text">I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me.</div>
+                                            <div class="testimonial-slider__text">I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Online Engineering is one of the most impressive to me.</div>
 
                                         </div>
                                     </div>
@@ -340,7 +209,7 @@
 
                                             <div class="testimonial-slider--info">
                                                 <div class="testimonial-slider__media">
-                                                    <img src="{{url('client')}}/images/testimonial/mitech-testimonial-avata-04-90x90.webp" class="img-fluid" alt="">
+                                                    <img src="{{url('client')}}/images/testimonial/Online Engineering-testimonial-avata-04-90x90.webp" class="img-fluid" alt="">
                                                 </div>
 
                                                 <div class="testimonial-slider__author">
@@ -358,7 +227,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="testimonial-slider__text">I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me.</div>
+                                            <div class="testimonial-slider__text">I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Online Engineering is one of the most impressive to me.</div>
 
                                         </div>
                                     </div>
@@ -367,7 +236,7 @@
 
                                             <div class="testimonial-slider--info">
                                                 <div class="testimonial-slider__media">
-                                                    <img src="{{url('client')}}/images/testimonial/mitech-testimonial-avata-01-90x90.webp" class="img-fluid" alt="">
+                                                    <img src="{{url('client')}}/images/testimonial/Online Engineering-testimonial-avata-01-90x90.webp" class="img-fluid" alt="">
                                                 </div>
 
                                                 <div class="testimonial-slider__author">
@@ -385,7 +254,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="testimonial-slider__text">I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me.</div>
+                                            <div class="testimonial-slider__text">I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Online Engineering is one of the most impressive to me.</div>
 
                                         </div>
                                     </div>
@@ -396,7 +265,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!--====================  End of testimonial section  ====================-->
 
         <!--====================  brand logo slider area ====================-->
@@ -411,90 +280,90 @@
                                     <div class="swiper-slide brand-logo brand-logo--slider">
                                         <a href="#">
                                             <div class="brand-logo__image">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-01.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-01.webp" class="img-fluid" alt="">
                                             </div>
                                             <div class="brand-logo__image-hover">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-01-hover.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-01-hover.webp" class="img-fluid" alt="">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide brand-logo brand-logo--slider">
                                         <a href="#">
                                             <div class="brand-logo__image">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-02.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-02.webp" class="img-fluid" alt="">
                                             </div>
                                             <div class="brand-logo__image-hover">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-02-hover.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-02-hover.webp" class="img-fluid" alt="">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide brand-logo brand-logo--slider">
                                         <a href="#">
                                             <div class="brand-logo__image">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-03.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-03.webp" class="img-fluid" alt="">
                                             </div>
                                             <div class="brand-logo__image-hover">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-03-hover.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-03-hover.webp" class="img-fluid" alt="">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide brand-logo brand-logo--slider">
                                         <a href="#">
                                             <div class="brand-logo__image">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-04.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-04.webp" class="img-fluid" alt="">
                                             </div>
                                             <div class="brand-logo__image-hover">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-04-hover.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-04-hover.webp" class="img-fluid" alt="">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide brand-logo brand-logo--slider">
                                         <a href="#">
                                             <div class="brand-logo__image">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-05.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-05.webp" class="img-fluid" alt="">
                                             </div>
                                             <div class="brand-logo__image-hover">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-05-hover.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-05-hover.webp" class="img-fluid" alt="">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide brand-logo brand-logo--slider">
                                         <a href="#">
                                             <div class="brand-logo__image">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-06.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-06.webp" class="img-fluid" alt="">
                                             </div>
                                             <div class="brand-logo__image-hover">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-06-hover.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-06-hover.webp" class="img-fluid" alt="">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide brand-logo brand-logo--slider">
                                         <a href="#">
                                             <div class="brand-logo__image">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-07.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-07.webp" class="img-fluid" alt="">
                                             </div>
                                             <div class="brand-logo__image-hover">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-07-hover.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-07-hover.webp" class="img-fluid" alt="">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide brand-logo brand-logo--slider">
                                         <a href="#">
                                             <div class="brand-logo__image">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-08.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-08.webp" class="img-fluid" alt="">
                                             </div>
                                             <div class="brand-logo__image-hover">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-08-hover.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-08-hover.webp" class="img-fluid" alt="">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide brand-logo brand-logo--slider">
                                         <a href="#">
                                             <div class="brand-logo__image">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-09.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-09.webp" class="img-fluid" alt="">
                                             </div>
                                             <div class="brand-logo__image-hover">
-                                                <img src="{{url('client')}}/images/brand/mitech-client-logo-09-hover.webp" class="img-fluid" alt="">
+                                                <img src="{{url('client')}}/images/brand/Online Engineering-client-logo-09-hover.webp" class="img-fluid" alt="">
                                             </div>
                                         </a>
                                     </div>
@@ -520,7 +389,6 @@
                         <div class="contact-info style-two text-left">
 
                             <div class="contact-info-title-wrap text-center">
-                                <h3 class="heading  mb-10">4.9/5.0</h3>
                                 <div class="ht-star-rating lg-style">
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
@@ -545,7 +413,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="mailto:hello@mitech.com" class="single-contact-list">
+                                <a href="mailto:hello@Online Engineering.com" class="single-contact-list">
                                     <div class="content-wrap">
                                         <div class="content">
                                             <div class="icon">
@@ -553,7 +421,7 @@
                                             </div>
                                             <div class="main-content">
                                                 <h6 class="heading">Say hello</h6>
-                                                <div class="text">hello@mitech.com</div>
+                                                <div class="text">hello@Online Engineering.com</div>
                                             </div>
                                         </div>
                                     </div>

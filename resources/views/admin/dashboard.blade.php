@@ -8,6 +8,7 @@
         @if (Auth::user()->role !='1')
             <script>window.location.href='/admin'</script>
         @endif
+        <div classs="mdk-drawer-layout js-mdk-drawer-layout">
         <div class="mdk-drawer-layout__content page">
             <div class="container-fluid page__heading-container">
                 <div class="page__heading d-flex align-items-center">
@@ -275,4 +276,5 @@
                 </div>
             </div>
         </div>
+    </div>
 @endsection

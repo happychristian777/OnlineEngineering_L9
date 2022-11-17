@@ -1,9 +1,6 @@
 
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
-
-
-<!-- Mirrored from template.hasthemes.com/mitech/index-software-innovation.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Mar 2022 11:26:53 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,8 +24,6 @@
 </head>
 
 <body>
-
-
     <div class="preloader-activate preloader-active open_tm_preloader">
         <div class="preloader-area-wrap">
             <div class="spinner d-flex justify-content-center align-items-center h-100">
@@ -38,34 +33,22 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--====================  header area ====================-->
     <div class="header-area">
-
         <!-- Header Top Wrap Start -->
+        @if(isset(Auth::user()->email))
+
         <div class="header-top-wrap border-bottom">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="text-center top-message"><a href="#">Now Hiring:</a> Are you a driven and motivated 1st Line IT Support Engineer?</p>
+                        <p class="text-center top-message">  Welcome: {{ Auth::user()->name }}</p>
                     </div>
                 </div>
             </div>
         </div>
+        @endif
         <!-- Header Top Wrap End -->
-
         <div class="header-bottom-wrap">
             <div class="container">
                 <div class="row">
@@ -74,7 +57,7 @@
                             <!-- brand logo -->
                             <div class="header__logo top-logo">
                                 <a href="index.html">
-                                    <img src="{{url('client')}}/images/logo/logo-dark.webp" width="160" height="48" class="img-fluid" alt="">
+                                    <img src="{{url('client')}}/logo.png" width="160" height="30" class="img-fluid" alt="">
                                 </a>
                             </div>
 
@@ -205,19 +188,36 @@
                                                 <li class="">
                                                     <a href="{{ route('contact') }}"><span>Contact Us</span></a>
                                                 </li>
+                                                @if(isset(Auth::user()->email))
+
+                                                <li class="">
+                                                    <a href="{{ route('client.logout') }}"><span>Logout</span></a>
+                                                </li>
+
+                                                @else
+                                                <li class="">
+                                                    <a href="{{ url('signin') }}"><span>Login</span></a>
+                                                </li>
+                                                @endif
+
+
+
+
+
                                             </ul>
                                         </nav>
                                     </div>
                                 </div>
 
-                                <div class="header-search-form ">
+                                {{-- <div class="header-search-form ">
                                     <form action="#" class="search-form-top style-03 ">
                                         <input class="search-field" type="text" placeholder="Search…">
                                         <button class="search-submit">
                                             <i class="search-btn-icon fa fa-search"></i>
                                         </button>
                                     </form>
-                                </div>
+                                </div> --}}
+
                             </div>
                         </div>
                     </div>

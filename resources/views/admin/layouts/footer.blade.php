@@ -7,6 +7,7 @@
 
     </div>
     <!-- // END header-layout -->
+
     <!-- App Settings FAB -->
     <div id="app-settings">
         <app-settings layout-active="default" :layout-location="{

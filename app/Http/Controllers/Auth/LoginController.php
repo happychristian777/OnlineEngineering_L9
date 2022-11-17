@@ -1,7 +1,5 @@
 <?php
-
 namespace App\Http\Controllers\Auth;
-
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
@@ -27,7 +25,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::Dashboard;
+    // protected $redirectTo = RouteServiceProvider::Dashboard;
     public function authenticated(){
         if(Auth::user()->role == '1'){
             return redirect()->route('admin.dashboard')->with('status','Welcome to Admin Dashboard');

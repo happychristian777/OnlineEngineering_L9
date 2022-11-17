@@ -1,3 +1,3 @@
-@include('client.layouts.header');
+@include('client.layouts.header')
 @yield('main-section')
-@include('client.layouts.footer');
+@include('client.layouts.footer')

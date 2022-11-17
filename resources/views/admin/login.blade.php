@@ -58,7 +58,7 @@
     <div class="layout-login__form bg-white" data-simplebar>
         <div class="d-flex justify-content-center mt-2 mb-5 navbar-light">
             <a href="index.html" class="navbar-brand" style="min-width: 0">
-                <img class="navbar-brand-icon" src="{{url('admins/')}}/images/logo/color.png" width="100" alt="Stack">
+                <img class="navbar-brand-icon" src="{{url('client/')}}/logo.png" width="100" alt="Stack">
             </a>
         </div>
 

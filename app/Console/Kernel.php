@@ -16,6 +16,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         // $schedule->command('inspire')->hourly();
+        $schedule->command('file:move')->everyMinute();
     }
 
     /**
@@ -26,7 +27,7 @@ class Kernel extends ConsoleKernel
     protected function commands()
     {
         $this->load(__DIR__.'/Commands');
-
+        EveryMinute::class;
         require base_path('routes/console.php');
     }
 }
